@@ -1,7 +1,5 @@
 <!DOCTYPE HTML>
 <?php
-ini_set("display_errors",0);error_reporting(0);
-
 
 $hostname = 'localhost';
 $user = 'root';
@@ -25,7 +23,6 @@ if (mysqli_connect_errno()) {
         .xmlApp:hover{
             transform: translate(-20px, -10px);
             box-shadow: 8px 8px 0px #eee; 
-            z-index: 10000;
         }
         .xmlApp {
             position: static;
